@@ -21,7 +21,6 @@ header {
 	background-image: url(../img/fondo.jpg);
   	background-size: cover;
   	background-position: center;
-  	
 }
 
 #segundoArt {
@@ -140,14 +139,12 @@ iframe {
 
 /* CONTACTO */
 
-
 #seccionContacto {
 
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
-	
 }
 
 #form {
