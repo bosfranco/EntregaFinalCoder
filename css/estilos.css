@@ -46,6 +46,11 @@ h2 {
 	display: flex;
 }
 
+#tercerArt img:hover {
+
+	background-origin: b: 
+}
+
 #tercerArt div {
 
 	height: 20%;
@@ -55,6 +60,12 @@ h2 {
 #tercerArt img {
 
 	padding: 10px;
+}
+
+#tercerArt img:hover {
+
+	padding: 10px;
+	border: 5px solid white;
 }
 
 #contenedorImg {
@@ -89,7 +100,7 @@ footer {
 	height: 100%;
 	background-color: #393e46;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	list-style: none;
 	color: #e0dede;
 	text-align: center;
@@ -110,15 +121,13 @@ footer .linkFooter {
 
 footer .linkFooter:hover {
 
-	padding: 5px;
-	border: 0.2px solid white;
+	color: white;
 	text-decoration: none;
 }
 
 footer img {
 
-	width: 15%;
-	height: auto;
+	height: 10vh;
 	margin: 10px;
 	
 }
