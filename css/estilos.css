@@ -1,0 +1,256 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+/* HOME */
+
+header {
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+#primerArt {
+
+	height: 75vh;
+	background-image: url(../img/fondo.jpg);
+  	background-size: cover;
+  	background-position: center;
+  	
+}
+
+#segundoArt {
+
+	height: 30vh;
+	padding: 20px;
+	background-color: #8785a2;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+h2 {
+
+	font-size: 3rem;
+}
+
+#tercerArt {
+
+	display: flex;
+}
+
+#tercerArt div {
+
+	height: 20%;
+	width: auto;
+}
+
+#tercerArt img {
+
+	padding: 10px;
+}
+
+#contenedorImg {
+
+	height: 70vh;
+	padding: 30px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+#btnCatalogo {
+
+	background-color: #355c7d;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+#btnCatalogo:hover {
+
+	background-color: #c3bef0;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+footer {
+	
+	padding: 20px;
+	height: 100%;
+	background-color: #393e46;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	color: #e0dede;
+	text-align: center;
+}
+
+footer li {
+
+	display: inline-block;
+}
+
+footer .linkFooter {
+
+	margin: 10px;
+	padding: 10px;
+	color: #e0dede;
+	text-decoration: none;
+}
+
+footer .linkFooter:hover {
+
+	padding: 5px;
+	border: 0.2px solid white;
+	text-decoration: none;
+}
+
+footer img {
+
+	width: 15%;
+	height: auto;
+	margin: 10px;
+	
+}
+
+iframe {
+
+	max-width: 100%;
+ 	height: auto;
+}
+
+/* CONTACTO */
+
+
+#seccionContacto {
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#form {
+
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	width: 40vw;
+	border-radius: 5px;
+	color: white;
+	background-color: #8785a2;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+.espacioTexto {
+
+	width: 100%;
+	padding: 10px;
+	border: none; 
+	border-radius: 5px;
+}
+
+input:focus {
+
+	background-color: #f6f6f6;
+	color: black;
+}
+
+#btnForm {
+
+	margin-top: 20px;
+	padding: 20px;
+	border-radius: 5px;
+	border: none; 
+	width: 100%;
+}
+
+#btnForm:hover {
+
+	background-color: #c3bef0;
+	border: none;
+	color: white;
+}
+
+/* CATÁLOGO */
+
+#catalogo {
+
+	padding: 10px;
+  	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.contenedorCatalogo {
+
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+#catalogo img {
+
+	height: 60vh;
+	width: auto;
+	padding: 10px;
+}
+
+#catalogo img:hover {
+
+	border: 3px dashed #8785a2;
+}
+
+/* NOSOTROS */
+
+#info {
+
+	height: 75vh;
+	background-color: #8785a2;
+	color: white;
+	padding: 20px;
+}
+
+#info2 {
+
+	height: 75vh;
+	padding: 10px;
+	background-image: url(../img/nosotros.jpg);
+  	background-size: cover;
+  	background-position: center;
+}
+
+#info3 {
+
+	height: 75vh;
+	padding: 10px;
+	background-image: url(../img/historia.jpg);
+  	background-size: cover;
+  	background-position: center;
+}
+
+/* GALERIA */
+
+#galeria img {
+
+	width: 100%;
+	padding: 10px;
+}
+
+#galeria img:hover {
+
+	border: 5px dashed #8785a2;
+}
